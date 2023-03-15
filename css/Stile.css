@@ -1,0 +1,153 @@
+body{
+    max-width: 1440px;
+    max-height: 768px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main{     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    box-shadow: 20px 20px 20px 3px rgb(241, 240, 245);
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+
+.score{
+    background: linear-gradient(180deg,hsl(252, 100%, 67%),  hsl(241, 81%, 54%));   
+    border-radius: 30px;
+    width: 368px;
+    height: 512px;
+    display: inline-grid;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+    justify-items: center;
+}
+
+.text-white{
+    color: hsl(0, 0%, 100%);
+}
+
+.text-grey {
+     color:  hsl(241, 100%, 89%)/*hsl(241, 100%, 89%); */
+}
+
+.text-darkGrey{
+    color: hsl(224, 30%, 27%);
+}
+
+.title{
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+.circle-score{  
+    background: linear-gradient(180deg,hsla(256, 72%, 46%, 1) ,  hsla(241, 72%, 46%, 0) );
+    border-radius:100%;
+    width: 200px;
+    height: 200px;
+    margin: 37px 0 0 0;
+}
+
+
+.number-score{
+    font-size: 70px;
+    margin: 30px 0 0 0;
+}
+
+.max-result{
+    margin: 0;
+}
+
+.text-grey.description{
+    width: 250px;
+    margin: 0 0 70px 0;
+
+}
+.sumarry{
+    background-color: white;
+    border-radius: 30px;
+    height: 512px;
+    width: 358px;
+    display: grid;
+    align-content: space-around;
+    justify-content: space-around;
+    justify-items: start;
+    
+}
+
+.image-text {
+    background-color: rgb(253, 159, 7);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 290px;
+    border-radius: 10px;
+    
+    } 
+
+.text-red{
+    color:hsl(0, 100%, 67%);
+}
+
+.text-orange{
+    color: hsl(39, 100%, 56%);
+}
+
+.text-green{
+    color: hsl(166, 100%, 37%);
+}
+
+.text-blue{
+    color:hsl(234, 85%, 45%);
+}
+
+.back-red{
+    background-color:hsla(0, 100%, 67%, 5%);
+}
+.back-orange{
+    background-color: hsla(39, 100%, 56%, 5%);
+}
+
+.back-green{
+    background-color: hsla(166, 100%, 37%, 5%);
+}
+
+.back-blue{
+    background-color:hsla(234, 85%, 45%, 5%);
+}
+
+.btn-continue{
+    border:0;
+    border-radius: 30px;
+    width: 290px;
+    height: 50px;
+    margin-bottom: 45px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 18px;
+}
+
+.attribution{ 
+    position:inherit;
+    margin-top: 50px;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 10px;   
+    color: hsl(228, 45%, 44%);
+}
+ 
+.btn-continue:hover{
+    background-color: hsl(241, 81%, 54%);
+    transition: 0.3s;
+    cursor: pointer;
+}

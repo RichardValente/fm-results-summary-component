@@ -1,0 +1,32 @@
+@media (max-width: 375px){
+    body{
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        height: 740px;
+    }
+    main{
+        margin-top: 150px;
+        flex-direction: column;
+    }
+
+    .score{
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        height: 400px;
+    } 
+
+    .circle-score{
+        width: 150px;
+        height: 150px;
+    }
+
+    .number-score{
+        font-size: 50px;
+    }
+
+    .opinion{
+        font-size: 30px;
+    }
+}
+
