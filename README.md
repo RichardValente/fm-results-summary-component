@@ -29,8 +29,8 @@ Users should be able to:
 ### Screenshot
 
 - Here is the screenshot of the result of my code. 
-![](./screenshot.jpg)
-
+![Monitor resolution](./screenshot.jpg)
+![Smartphone Resolution](./screenshot-2.jpg)
 
 ### Links
 
@@ -61,8 +61,8 @@ In the future, when learning how to use JavaScript I plan to re-code this site a
 
 I used these two websites to help understand some functions and solve doubts.
 
-- [Mozzila Developer](https://developer.mozilla.org/pt-BR/docs/Web/HTML) 
-- [W3Schools](https://www.w3schools.com/html/) 
+- [Example resource 1](https://developer.mozilla.org/pt-BR/docs/Web/HTML) 
+- [Example resource 2](https://www.w3schools.com/html/) 
 
 
 ## Author
